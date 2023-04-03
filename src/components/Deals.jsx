@@ -11,7 +11,7 @@ import house9 from "../assets/Deals/house9.png";
 
 const Deals = () => {
   return (
-    <div className="bg-slate-50 text-center">
+    <div className="bg-slate-50 text-center pb-20">
       <p className="bg-red-100 m-auto text-center p-2 w-[150px] text-sm text-red-500 font-bold rounded-3xl mb-20">
         DEALS
       </p>
@@ -25,7 +25,7 @@ const Deals = () => {
       </p>
 
       <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-10 text-left md:mx-[250px]">
-        <div className="bg-white rounded-xl">
+        <div className="bg-white rounded-xl drop-shadow-xl">
           <img src={house1} alt="house image" />
           <div className="p-6">
             <h5 className="font-bold pb-2 text-[#6B7A99]">
@@ -40,7 +40,7 @@ const Deals = () => {
             </p>
           </div>
         </div>
-        <div className="bg-white rounded-xl">
+        <div className="bg-white rounded-xl drop-shadow-xl">
           <img src={house2} alt="house image" />
           <div className="p-6">
             <h5 className="font-bold pb-2 text-[#6B7A99]">House on the Lake</h5>
@@ -53,7 +53,7 @@ const Deals = () => {
             </p>
           </div>
         </div>
-        <div className="bg-white rounded-xl">
+        <div className="bg-white rounded-xl drop-shadow-xl">
           <img src={house3} alt="house image" />
           <div className="p-6">
             <h5 className="font-bold pb-2 text-[#6B7A99]">
@@ -68,7 +68,7 @@ const Deals = () => {
             </p>
           </div>
         </div>
-        <div className="bg-white rounded-xl">
+        <div className="bg-white rounded-xl drop-shadow-xl">
           <img src={house4} alt="house image" />
           <div className="p-6">
             <h5 className="font-bold pb-2 text-[#6B7A99]">
@@ -83,7 +83,7 @@ const Deals = () => {
             </p>
           </div>
         </div>
-        <div className="bg-white rounded-xl">
+        <div className="bg-white rounded-xl drop-shadow-xl">
           <img src={house5} alt="house image" />
           <div className="p-6">
             <h5 className="font-bold pb-2 text-[#6B7A99]">
@@ -98,7 +98,7 @@ const Deals = () => {
             </p>
           </div>
         </div>
-        <div className="bg-white rounded-xl">
+        <div className="bg-white rounded-xl drop-shadow-xl">
           <img src={house6} alt="house image" />
           <div className="p-6">
             <h5 className="font-bold pb-2 text-[#6B7A99]">
@@ -113,7 +113,7 @@ const Deals = () => {
             </p>
           </div>
         </div>
-        <div className="bg-white rounded-xl">
+        <div className="bg-white rounded-xl drop-shadow-xl">
           <img src={house7} alt="house image" />
           <div className="p-6">
             <h5 className="font-bold pb-2 text-[#6B7A99]">
@@ -128,7 +128,7 @@ const Deals = () => {
             </p>
           </div>
         </div>
-        <div className="bg-white rounded-xl">
+        <div className="bg-white rounded-xl drop-shadow-xl">
           <img src={house8} alt="house image" />
           <div className="p-6">
             <h5 className="font-bold pb-2 text-[#6B7A99]">
@@ -143,7 +143,7 @@ const Deals = () => {
             </p>
           </div>
         </div>
-        <div className="bg-white rounded-xl">
+        <div className="bg-white rounded-xl drop-shadow-xl">
           <img src={house9} alt="house image" />
           <div className="p-6">
             <h5 className="font-bold pb-2 text-[#6B7A99]">
