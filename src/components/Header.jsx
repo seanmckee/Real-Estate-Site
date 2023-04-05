@@ -41,22 +41,22 @@ const Header = () => {
         </div>
 
         <ul className="md:flex hidden mr-10">
-          <li className="p-4">
+          <li className="p-4 cursor-pointer">
             <Link to="About" smooth={true} duration={500}>
               About
             </Link>
           </li>
-          <li className="p-4">
+          <li className="p-4 cursor-pointer">
             <Link to="Services" smooth={true} duration={500}>
               Services
             </Link>
           </li>
-          <li className="p-4">
+          <li className="p-4 cursor-pointer">
             <Link to="Deals" smooth={true} duration={500}>
               Deals
             </Link>
           </li>
-          <li className="p-4">
+          <li className="p-4 cursor-pointer">
             <Link to="Reviews" smooth={true} duration={500}>
               Reviews
             </Link>
@@ -81,12 +81,12 @@ const Header = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#4D5E80] flex flex-col justify-center items-center z-10 text-slate-50 font-semibold"
         }
       >
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl cursor-pointer">
           <Link onClick={handleClick} to="About" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl cursor-pointer">
           <Link
             onClick={handleClick}
             to="Services"
@@ -96,17 +96,17 @@ const Header = () => {
             Services
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl cursor-pointer">
           <Link onClick={handleClick} to="Deals" smooth={true} duration={500}>
             Deals
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl cursor-pointer">
           <Link onClick={handleClick} to="Reviews" smooth={true} duration={500}>
             Reviews
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl cursor-pointer">
           <Link onClick={handleClick} to="Contact" smooth={true} duration={500}>
             Contact
           </Link>
