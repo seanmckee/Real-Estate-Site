@@ -20,7 +20,7 @@ const Services = () => {
         conduct your business, conduct meetings, meetings
       </p>
 
-      <ul className="flex justify-center pb-20">
+      <ul className="flex flex-col md:flex-row items-center md:justify-center pb-20">
         <li>
           <div className="bg-white p-8 rounded-full drop-shadow-md m-7">
             <img src={House} alt="House" className="" />

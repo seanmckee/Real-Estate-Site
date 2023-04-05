@@ -20,30 +20,30 @@ const Contact = () => {
       </p>
 
       <form action="" className="">
-        <div className=" mx-auto grid grid-cols-2 w-[50%] gap-8 mb-5">
+        <div className=" mx-auto grid lg:grid-cols-2 w-[50%] gap-8 mb-5">
           <input
             type="text"
-            className="rounded-full h-[50px] drop-shadow-md !outline-none ml-20 pl-8"
+            className="rounded-full h-[50px] drop-shadow-md !outline-none lg:ml-20 pl-8"
             placeholder="First Name"
           />
           <input
             type="text"
-            className="rounded-full h-[50px] drop-shadow-md !outline-none mr-20 pl-8"
+            className="rounded-full h-[50px] drop-shadow-md !outline-none lg:mr-20 pl-8"
             placeholder="Last Name"
           />
           <input
             type="text"
-            className="rounded-full h-[50px] drop-shadow-md !outline-none ml-20 pl-8"
+            className="rounded-full h-[50px] drop-shadow-md !outline-none lg:ml-20 pl-8"
             placeholder="Email"
           />
           <input
             type="text"
-            className=" rounded-full h-[50px] drop-shadow-md !outline-none mr-20 pl-8"
+            className=" rounded-full h-[50px] drop-shadow-md !outline-none lg:mr-20 pl-8"
             placeholder="Phone Number"
           />
           <input
             type="text"
-            className=" rounded-full h-[50px] drop-shadow-md !outline-none pl-8 col-span-2 mx-20"
+            className=" rounded-full h-[50px] drop-shadow-md !outline-none pl-8 lg:col-span-2 lg:mx-20"
             placeholder="Your Message"
           />
         </div>

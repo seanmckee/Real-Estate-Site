@@ -24,7 +24,7 @@ const Deals = () => {
         immovable property of this nature
       </p>
 
-      <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-10 text-left md:mx-[250px]">
+      <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-10 text-left md:mx-[250px] mx-20">
         <div className="bg-white rounded-xl drop-shadow-xl">
           <img src={house1} alt="house image" className="w-full" />
           <div className="p-6">

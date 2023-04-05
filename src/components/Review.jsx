@@ -18,7 +18,7 @@ const Review = () => {
         conduct your business, conduct meetings, meetings.
       </p>
 
-      <div className="flex justify-center pb-20">
+      <div className="flex flex-col lg:flex-row items-center lg:justify-center pb-20">
         <div>
           <div className="bg-white p-8 rounded-lg text-sm text-left w-[350px] mb-3 font-semibold text-[#7D8FB3] m-5 drop-shadow-md">
             <p>
