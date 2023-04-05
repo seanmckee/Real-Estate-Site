@@ -7,7 +7,7 @@ const Review = () => {
   return (
     <div className="bg-slate-50 text-center">
       <p className="bg-green-100 m-auto text-center p-2 w-[150px] text-sm text-green-500 font-bold rounded-3xl mb-20">
-        SERVICES
+        REVIEWS
       </p>
       <h1 className="text-3xl font-bold text-[#4D5E80] m-20">
         Services for Maximum Efficiency
@@ -15,12 +15,12 @@ const Review = () => {
       <p className="text-[#7D8FB3] w-[50%] m-auto mb-10">
         We have developed a unique space where you can work and create. We
         thought of everything to the smallest detail. You will be able to
-        conduct your business, conduct meetings, meethings.
+        conduct your business, conduct meetings, meetings.
       </p>
 
       <div className="flex justify-center pb-20">
         <div>
-          <div className="bg-white p-8 rounded-lg text-sm text-left w-[350px] mb-2 font-semibold text-[#7D8FB3] m-5">
+          <div className="bg-white p-8 rounded-lg text-sm text-left w-[350px] mb-3 font-semibold text-[#7D8FB3] m-5 drop-shadow-md">
             <p>
               Thank you very much for the house found. This is an ideal option
               for our family at the location and price. The company employs real
@@ -39,7 +39,7 @@ const Review = () => {
         </div>
 
         <div>
-          <div className="bg-white p-8 rounded-lg text-sm text-left w-[350px] mb-2 font-semibold text-[#7D8FB3] m-5">
+          <div className="bg-white p-8 rounded-lg text-sm text-left w-[350px] mb-3 font-semibold text-[#7D8FB3] m-5 drop-shadow-md">
             <p>
               A gentleman from New York discovered what he calls an “oversight”
               on the part of 99.9% of all marketers that allows him to get
@@ -57,7 +57,7 @@ const Review = () => {
         </div>
 
         <div>
-          <div className="bg-white p-8 rounded-lg text-sm text-left w-[350px] mb-2 font-semibold text-[#7D8FB3] m-5">
+          <div className="bg-white p-8 rounded-lg text-sm text-left w-[350px] mb-3 font-semibold text-[#7D8FB3] m-5 drop-shadow-md">
             <p>
               For many of us, our very first experience of learning about the
               celestial bodies begins when we saw our first full moon in the

@@ -26,7 +26,7 @@ const Deals = () => {
 
       <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-10 text-left md:mx-[250px]">
         <div className="bg-white rounded-xl drop-shadow-xl">
-          <img src={house1} alt="house image" />
+          <img src={house1} alt="house image" className="w-full" />
           <div className="p-6">
             <h5 className="font-bold pb-2 text-[#6B7A99]">
               Modern Glass House
@@ -41,7 +41,7 @@ const Deals = () => {
           </div>
         </div>
         <div className="bg-white rounded-xl drop-shadow-xl">
-          <img src={house2} alt="house image" />
+          <img src={house2} alt="house image" className="w-full" />
           <div className="p-6">
             <h5 className="font-bold pb-2 text-[#6B7A99]">House on the Lake</h5>
             <p className="font-semibold pb-2 text-[#6B7A99]">$225,000</p>
@@ -54,7 +54,7 @@ const Deals = () => {
           </div>
         </div>
         <div className="bg-white rounded-xl drop-shadow-xl">
-          <img src={house3} alt="house image" />
+          <img src={house3} alt="house image" className="w-full" />
           <div className="p-6">
             <h5 className="font-bold pb-2 text-[#6B7A99]">
               Townhouse in the Center
@@ -69,7 +69,7 @@ const Deals = () => {
           </div>
         </div>
         <div className="bg-white rounded-xl drop-shadow-xl">
-          <img src={house4} alt="house image" />
+          <img src={house4} alt="house image" className="w-full" />
           <div className="p-6">
             <h5 className="font-bold pb-2 text-[#6B7A99]">
               Townhouse in the center
@@ -84,7 +84,7 @@ const Deals = () => {
           </div>
         </div>
         <div className="bg-white rounded-xl drop-shadow-xl">
-          <img src={house5} alt="house image" />
+          <img src={house5} alt="house image" className="w-full" />
           <div className="p-6">
             <h5 className="font-bold pb-2 text-[#6B7A99]">
               Townhouse in the center
@@ -99,7 +99,7 @@ const Deals = () => {
           </div>
         </div>
         <div className="bg-white rounded-xl drop-shadow-xl">
-          <img src={house6} alt="house image" />
+          <img src={house6} alt="house image" className="w-full" />
           <div className="p-6">
             <h5 className="font-bold pb-2 text-[#6B7A99]">
               Townhouse in the center
@@ -114,7 +114,7 @@ const Deals = () => {
           </div>
         </div>
         <div className="bg-white rounded-xl drop-shadow-xl">
-          <img src={house7} alt="house image" />
+          <img src={house7} alt="house image" className="w-full" />
           <div className="p-6">
             <h5 className="font-bold pb-2 text-[#6B7A99]">
               Townhouse in the center
@@ -129,7 +129,7 @@ const Deals = () => {
           </div>
         </div>
         <div className="bg-white rounded-xl drop-shadow-xl">
-          <img src={house8} alt="house image" />
+          <img src={house8} alt="house image" className="w-full" />
           <div className="p-6">
             <h5 className="font-bold pb-2 text-[#6B7A99]">
               Townhouse in the center
@@ -144,7 +144,7 @@ const Deals = () => {
           </div>
         </div>
         <div className="bg-white rounded-xl drop-shadow-xl">
-          <img src={house9} alt="house image" />
+          <img src={house9} alt="house image" className="w-full" />
           <div className="p-6">
             <h5 className="font-bold pb-2 text-[#6B7A99]">
               Townhouse in the center
