@@ -7,7 +7,7 @@ import Warehouse from "../assets/Services/warehouse.png";
 
 const Services = () => {
   return (
-    <div className="bg-slate-50 text-center">
+    <div name="Services" className="bg-slate-50 text-center">
       <p className="bg-blue-100 m-auto text-center p-2 w-[150px] text-sm text-blue-500 font-bold rounded-3xl mb-20">
         SERVICES
       </p>

@@ -5,7 +5,7 @@ import pic3 from "../assets/Review/pic3.png";
 
 const Review = () => {
   return (
-    <div className="bg-slate-50 text-center">
+    <div name="Reviews" className="bg-slate-50 text-center">
       <p className="bg-green-100 m-auto text-center p-2 w-[150px] text-sm text-green-500 font-bold rounded-3xl mb-20">
         REVIEWS
       </p>

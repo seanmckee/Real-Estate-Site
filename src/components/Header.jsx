@@ -3,6 +3,7 @@ import Background from "../assets/Header/Background.png";
 import { RxTextAlignJustify } from "react-icons/rx";
 import { FaLocationArrow, FaPhoneAlt, FaBars, FaTimes } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { Link } from "react-scroll";
 
 const Header = () => {
   const [nav, setNav] = useState(false);
@@ -40,14 +41,35 @@ const Header = () => {
         </div>
 
         <ul className="md:flex hidden mr-10">
-          <li className="p-4">About</li>
-          <li className="p-4">Services</li>
-          <li className="p-4">Deals</li>
-          <li className="p-4">Reviews</li>
+          <li className="p-4">
+            <Link to="About" smooth={true} duration={500}>
+              About
+            </Link>
+          </li>
+          <li className="p-4">
+            <Link to="Services" smooth={true} duration={500}>
+              Services
+            </Link>
+          </li>
+          <li className="p-4">
+            <Link to="Deals" smooth={true} duration={500}>
+              Deals
+            </Link>
+          </li>
+          <li className="p-4">
+            <Link to="Reviews" smooth={true} duration={500}>
+              Reviews
+            </Link>
+          </li>
+
           {/* <button className="px-4 ml-10 bg-orange-500 border-2 rounded-2xl hover:bg-slate-100 hover:border-orange-500 hover:text-orange-500">
                 Get In Touch
               </button> */}
-          <button className="bg-orange-500 rounded-full px-5">Contact</button>
+          <button className="bg-orange-500 rounded-full px-5">
+            <Link to="Contact" smooth={true} duration={500}>
+              Contact
+            </Link>
+          </button>
         </ul>
       </div>
 
@@ -59,11 +81,36 @@ const Header = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#4D5E80] flex flex-col justify-center items-center z-10 text-slate-50 font-semibold"
         }
       >
-        <li className="py-6 text-4xl">About</li>
-        <li className="py-6 text-4xl">Services</li>
-        <li className="py-6 text-4xl">Deals</li>
-        <li className="py-6 text-4xl">Reviews</li>
-        <li className="py-6 text-4xl">Contact</li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleClick} to="About" smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link
+            onClick={handleClick}
+            to="Services"
+            smooth={true}
+            duration={500}
+          >
+            Services
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleClick} to="Deals" smooth={true} duration={500}>
+            Deals
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleClick} to="Reviews" smooth={true} duration={500}>
+            Reviews
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleClick} to="Contact" smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/* middle section */}

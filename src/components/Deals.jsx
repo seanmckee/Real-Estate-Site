@@ -11,7 +11,7 @@ import house9 from "../assets/Deals/house9.png";
 
 const Deals = () => {
   return (
-    <div className="bg-slate-50 text-center pb-20">
+    <div name="Deals" className="bg-slate-50 text-center pb-20">
       <p className="bg-red-100 m-auto text-center p-2 w-[150px] text-sm text-red-500 font-bold rounded-3xl mb-20">
         DEALS
       </p>
